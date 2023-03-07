@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            background-color: lightgreen;
+            padding: 1em;
+        }
+        .main {
+            background-color: lightseagreen;
+        }
+        .footer {
+            background-color: lightgreen;
+        }
+        /* this positions side bar to the content bar */
+        .side-bar {
+            float: left;
+            width: 25%;
+            padding: 1em;
+        }
+        .clearfix {
+            overflow: auto;
+            zoom: 1;
+        }
+        /* making the web page responsive */
+        @media(min-width:800px){
+            .side-bar {
+                float: left;
+                width: 25%;
+            }
+            .menu {
+                display: flex;
+            }
+        }
+        .side-bar {
+            padding: 1em;
+        }
+        .content {
+            padding: 1em;
+        }
+        /* Remove the dots from the list */
+        .menu li {
+            list-style: none;
+            margin: 0em;
+            padding: 0em;
+        }
+        /* ensure anyone can click anyware in the list for the link */
+        .menu a {
+            padding: 1em;
+            display: block;
+            width: 6em;
+        }
+        .menu a:hover {
+            background-color: lightseagreen;
+        } 
+        .menu {
+            display: flex;
+        }   
+    </style>
+</head>
+<body>
+    <!-- everything gets wrapped in the container div -->
+    <div class="container">
+        <!-- this is my header -->
+        <div class="header">
+            <h1>Main Heading</h1>
+            <ul class="menu">
+                <li><a href="#">Menu item 1</a></li>
+                <li><a href="#">Menu item 2</a></li>
+                <li><a href="#">Menu item 3</a></li>
+            </ul>
+        </div>
+        <!-- this is also known as the body -->
+        <div class="main">
+            <!-- side-bar is wrapped inside class="main" -->
+            <div class="side-bar">
+                <h2>side bar<h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Lobortis mattis aliquam faucibus purus in massa. 
+                Morbi tristique senectus et netus et. Sed id semper risus in. 
+                Ut sem nulla pharetra diam sit. 
+                Nibh venenatis cras sed felis eget velit aliquet.
+            </div>
+            <div class="content">
+                <!-- this is the main content -->
+                <h2>Main content</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Lobortis mattis aliquam faucibus purus in massa. 
+                Morbi tristique senectus et netus et. Sed id semper risus in. 
+                Ut sem nulla pharetra diam sit. 
+                Nibh venenatis cras sed felis eget velit aliquet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Lobortis mattis aliquam faucibus purus in massa. 
+                Morbi tristique senectus et netus et. Sed id semper risus in. 
+                Ut sem nulla pharetra diam sit. 
+                Nibh venenatis cras sed felis eget velit aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Lobortis mattis aliquam faucibus purus in massa. 
+                Morbi tristique senectus et netus et. Sed id semper risus in. 
+                Ut sem nulla pharetra diam sit. 
+                Nibh venenatis cras sed felis eget velit aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Pellentesque nec nam aliquam sem et tortor consequat id. 
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
+                Ut faucibus pulvinar elementum integer enim neque volutpat. 
+                Pellentesque diam volutpat commodo sed egestas egestas. 
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Metus aliquam eleifend mi in. 
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Lobortis mattis aliquam faucibus purus in massa. 
+                Morbi tristique senectus et netus et. Sed id semper risus in. 
+                Ut sem nulla pharetra diam sit. 
+                Nibh venenatis cras sed felis eget velit aliquet.
+            </div>
+            <div class="main clearfix">
+                <!-- content here -->
+            </div>
+        </div>
+        <div class="footer">
+            <h4>@footer inc</h4>
+        </div>
+    </div>
+</body>
+</html>
